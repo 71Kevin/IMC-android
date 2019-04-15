@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="estudo.br.duastelas.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textIMC"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="44dp"
+            android:text="Feminino" />
+
+        <Button
+            android:id="@+id/buttonM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textIMC"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="234dp"
+            android:layout_marginTop="45dp"
+            android:text="Masculino" />
+
+        <TextView
+            android:id="@+id/labelIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="22dp"
+            android:text="Seu IMC é:" />
+
+        <TextView
+            android:id="@+id/textIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelIMC"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="33dp"
+            android:text="TextView" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

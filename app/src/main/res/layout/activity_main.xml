@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="estudo.br.duastelas.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:hint="digite sua altura"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editAltura"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="digite seu peso"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonSeguinte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editPeso"
+            android:layout_marginTop="40dp"
+            android:text="Tela Seguinte" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
